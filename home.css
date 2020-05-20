@@ -1,0 +1,121 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #100f35;
+    background-color: #100f35;
+    color: seashell;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.5);
+    position: sticky;
+    z-index: 11;
+    height: 100%;
+}
+.branding{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    grid-gap: 10px;
+    align-items: center;
+}
+.logo{
+    border: 1px solid #38366b;
+    width: 65px;
+    height: 65px;
+    background-color: #38366b;
+}
+.brand{
+    font-size: 20px;
+    font-weight: bold;
+}
+.copywrite{
+    display: flex;
+}
+.follow{
+    margin-left: 5px;
+    background-color: #38366b;
+    border: #38366b;
+    color: seashell;
+}
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+    align-items: center;
+    margin-right: 10px;
+}
+.navigation > .nav-button{
+    background-color: #38366b;
+    border: #38366b;
+    color: seashell;
+    height: 50px;
+    border-radius: 4px;
+    width: max-content;
+}
+.container{
+    background-color: #4b49c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    margin-top: 25px;
+}
+.heading-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.large-text{
+    font-size: 25px;
+    font-weight: bold;
+    color: seashell;
+}
+.second-text{
+    font-size: 15px;
+    font-weight: lighter;
+    color: seashell;
+    margin-top: 15px;
+}
+.form-container{
+    margin-top: 25px;
+    border: 1px solid #38366b;
+    background-color: #38366b;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 30px;
+    color: seashell;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.input > input:not(.checkbox){
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.input > textarea{
+    border-radius: 4px;
+}
+.input > select{
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+}
+.button{
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    background-color: springgreen;
+    color: seashell;
+    font-weight: bold;
+}
