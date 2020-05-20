@@ -21,8 +21,86 @@
 .question-answer-card > .answer{
     padding: 10px;
     font-family: monospace;
-    
+}
+ul{
+    margin-left: 30px;
 }
 ul > li {
     list-style-type: square;
+}
+.property-a{
+    text-indent: 5px;
+}
+.value-a{
+    text-indent: 5px;
+}
+.content-p{
+    color: lightcoral;
+    text-shadow: 1px 1px lightslategrey;
+    text-decoration: overline;
+}
+.border-p{
+    border: 2px dashed lightcoral;
+}
+.padding-p{
+    border: 2px dashed lightcoral;
+    padding: 10px;
+}
+.margin-p{
+    border: 2px dashed lightcoral;
+    margin: 10px;
+}
+.element-p{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+    border: 2px dashed lightcoral;
+}
+.ans{
+    border: 1px solid black;
+}
+.cm{
+    font-size: 1cm;
+}
+.mm{
+    font-size: 5mm;
+}
+.in{
+    font-size: 1in;
+}
+.px{
+    font-size: 10px;
+}
+.pt{
+    font-size: 10pt;
+}
+.pc{
+    font-size: 1pc;
+}
+.em{
+    font-size: 2em;
+}
+.ex{
+    font-size: 2ex;
+}
+.ch{
+    font-size: 2ch;
+}
+.rem{
+    font-size: 2rem;
+}
+.vh{
+    font-size: 2vh;
+}
+.vw{
+    font-size: 2vw;
+}
+.perc{
+    font-size: 20%;
+}
+.vmin{
+    font-size: 2vmin;
+}
+.vmax{
+    font-size: 2vmax;
 }
